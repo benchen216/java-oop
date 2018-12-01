@@ -17,7 +17,7 @@ class Item <O1,O2,O3> implements Comparable {
     public String toString() {
         return "("+id+","+name+","+price+")" ;
     }
-
+    int[][] arr= new int[3][3];
     @Override
     public int compareTo(Object o) {
         if(this==o)return 0;
